@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/NB_icon.webp" type="image/x-icon" />
+    <title>Nehuén Barolin | Portfolio</title>
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <div class="logo">
+                        <a href="#"><img src="img/NB_logo.webp"></a>
+                    </div>
+                    <nav id="nav">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menú responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+
+            <!-- TARJETA PRESENTACIÓN -->
+            <div id="inicio" class="inicio">
+                <div class="contenido-banner">
+                    <div class="contenedor-img">
+                        <img src="img/profile.webp" alt="Foto de perfil.">
+                    </div>
+                    <h1>Nehuén Barolin</h1>
+                    <h2>Técnico Analista Funcional de Sistemas Informáticos</h2>
+                    <div class="redes">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://ar.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/profile_2.jpg" alt="Foto de perfil 2.">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Nehuén Barolin</span> </h2>
+            <h3>Técnico Analista Funcional de Sistemas Informáticos</h3>
+            <p>Soy estudiante de la carrera Técnico Superior en Análisis Funcional de Sistemas Informáticos. Mi
+                formación profesional se basa, tanto en carrera terciaria (ya nombrar recientemente), como en mi propia
+                investigación (es decir, de manera autodidacta y entre diversos cursos online).</p>
+            <p>No tengo experiencia en el campo laboral, ya que recién estoy comenzando en este mundo de la
+                programación, pero estoy en búsqueda de una oportunidad. Tengo conocimientos básicos en HTML, CSS,
+                JavaScript y mi deseo es dar lo mejor de mí en los proyectos.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">PORTFOLIO</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">CONTACTO</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre" class="input-mitad" required>
+                    <input type="text" placeholder="Apellido" class="input-mitad" required>
+                </div>
+                <div class="fila">
+                    <input type="email" placeholder="Correo" class="input-full" required>
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Asunto" class="input-full" required>
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" class="input-full"
+                        required></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://ar.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <p><span class="name">Nehuén Barolin</span> &copy; Copyright. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
